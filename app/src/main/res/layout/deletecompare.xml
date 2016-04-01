@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:minHeight="50sp"
+                android:minWidth="25sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:minWidth="9sp" />
+
+            <TextView
+                android:id="@+id/itemName"
+                android:textColor="@color/Black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:minWidth="9sp" />
+
+            <TextView
+                android:minHeight="50sp"
+                android:minWidth="25sp" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:minWidth="9sp" />
+
+            <Button
+                android:id="@+id/deleteshopping"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_button"
+                android:minWidth="75sp"
+                android:text="@string/deleteshopping" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:minWidth="9sp" />
+
+            <TextView
+                android:minWidth="25sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:minWidth="9sp" />
+
+            <Button
+                android:id="@+id/compareprice"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_button"
+                android:minWidth="75sp"
+                android:text="@string/pricecompare" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:minWidth="9sp" />
+
+            <TextView
+                android:minWidth="25sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:minWidth="9sp" />
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_button"
+                android:minWidth="75sp"
+                android:text="@string/share" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

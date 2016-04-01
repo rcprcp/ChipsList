@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ChipsList="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_bar_share_store_list"
+        ChipsList:showAsAction="always"
+        android:icon="@drawable/phone_icon"
+        android:title="@string/share_list"/>
+    <item
+        android:id="@+id/action_bar_trip_summary"
+        ChipsList:showAsAction="always"
+        android:icon="@drawable/dollars"
+        android:title="@string/summary_trip"/>
+    <item
+        android:id="@+id/action_bar_add_item"
+        ChipsList:showAsAction="always"
+        android:icon="@drawable/plus2"
+        android:title="@string/add_item"/>
+
+</menu>

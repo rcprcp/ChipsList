@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/store_clear_checked"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/clear_checked"/>
+    <item
+        android:id="@+id/store_remove_checked"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/remove_checked"/>
+    <item
+        android:id="@+id/store_remove_all"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/remove_all"/>
+    <item
+        android:id="@+id/store_set_sort_order"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/set_sort_order"/>
+    <item
+        android:id="@+id/department_update"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/update_department_sort"/>
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/help"/>
+
+</menu>

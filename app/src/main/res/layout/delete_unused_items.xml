@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_unused_message" />
+
+    <TextView
+        android:id="@+id/spacer1"
+        android:layout_width="match_parent"
+        android:layout_height="12sp"
+        android:layout_below="@id/message" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spacer1" >
+
+        <TextView
+            android:id="@+id/leader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_unused_leader"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/never"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/one_mo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_unused_1mo" />
+
+        <RadioButton
+            android:id="@+id/three_mo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_unused_3mo" />
+
+        <RadioButton
+            android:id="@+id/six_mo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_unused_6mo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/spacer2"
+        android:layout_width="match_parent"
+        android:layout_height="12sp"
+        android:layout_below="@id/radio_group" />
+
+    <Button
+        android:id="@+id/delete"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/spacer2"
+        android:background="@drawable/gradient_button"
+        android:text="@string/delete" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChipsList">
+
+
+    <TextView
+        android:id="@+id/store_title"
+        android:text="@string/select_store"
+        style="@style/ActivityTitle" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/store_title">
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                style="@style/TableLayout"
+                android:id="@+id/mainTable" />
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <TextView
+        style="@style/FakeAd"
+        android:id="@+id/fake_ad"  />
+
+</RelativeLayout>

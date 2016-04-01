@@ -1,0 +1,41 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- <item name="android:textSize">20sp</item>  -->
+    </style>
+
+    <style name="TableLayout" >
+        <item name="android:layout_width"> wrap_content </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:textColor"> @color/Black </item>
+        <item name="android:padding">30dp</item>
+    </style>
+
+    <style name="ActivityTitle" >
+        <item name="android:layout_alignParentTop"> true </item>
+        <item name="android:gravity"> center </item>
+        <item name="android:layout_width"> fill_parent </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:textSize"> 24sp </item>
+        <item name="android:textColor"> @color/Black </item>
+    </style>
+
+    <style name="FakeAd" >
+        <item name="android:layout_width"> fill_parent </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:textColor"> @color/White </item>
+        <item name="android:textSize"> 20dp </item>
+        <item name="android:layout_alignParentBottom"> true </item>
+        <item name="android:background"> @color/Blue </item>
+        <item name="android:ellipsize"> marquee </item>
+        <item name="android:focusable"> true </item>
+        <item name="android:focusableInTouchMode"> true </item>
+        <item name="android:freezesText"> true </item>
+        <item name="android:marqueeRepeatLimit"> marquee_forever</item>
+        <item name="android:visibility"> invisible </item>
+        <item name="android:scrollHorizontally"> true </item>
+        <item name="android:singleLine">true </item>
+        <item name="android:text">@string/long_ads_string </item>
+    </style>
+
+</resources>
