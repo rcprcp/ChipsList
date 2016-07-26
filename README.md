@@ -1,12 +1,13 @@
 # ChipsList
-ChipsList is a grocery list program with a lot of initial data, from the USDA. 
+ChipsList is an example Android application - it's agrocery list program with a lot of initial data, from the USDA. 
 
-* Worked with lots of SQLite database features - referential integrity, ORDER BY clause, JOINs.
-* Worked with lots of Activities to organize the code. 
-* Subclasses the BaseListAdapter to implement SectionIndexer to handle a large list of items in real time.
-* walks through the device's SMS database to look for grocery list items sent by other ChipsList users.
+* It uses lots of SQLite database features - referential integrity, ORDER BY clause, JOINs.
+* Structued with lots of Activities to organize the code. 
+* Uses Subclasses the BaseListAdapter to implement SectionIndexer to handle a large list of items in real time.
+* Walks through the device's SMS database to look for grocery list items sent by other ChipsList users.
+* can send an SMS message containing your grocerey list to people in your contact list - the recipient can consolidate the lists.  
 
-It's a sample Android program, it works well enough, but has some rough edges - 
+It works well enough, but has some rough edges - 
 
 TODO: 
 * needs to have the database code replaced or augmented with JPA/Hibernate.
