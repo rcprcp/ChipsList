@@ -10,5 +10,5 @@ ChipsList is an example Android application - it's agrocery list program with a 
 It works well enough, but has some rough edges - 
 
 TODO: 
-* needs to have the database code replaced or augmented with JPA/Hibernate.
+* needs to have the database code replaced or augmented with JPA/Hibernate or perhaps ORM is just an anti-pattern and we want to refactor the DB code in a different way.  
 * it would be nice to snazz-up the UI with better animations; and use Fragments to re-design the UI.
