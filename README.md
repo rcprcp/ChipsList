@@ -11,5 +11,4 @@ It works well enough, but has some rough edges -
 
 TODO: 
 * needs to have the database code replaced or augmented with JPA/Hibernate.
-* it would be nide to snazz-up the UI with better animations.  
-* fragment support to look better on a tablet. 
+* it would be nice to snazz-up the UI with better animations; and use Fragments to re-design the UI.
